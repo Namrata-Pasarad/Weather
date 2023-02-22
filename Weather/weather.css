@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+.weather{
+    background-image:url(https://tse1.mm.bing.net/th?id=OIP.HttRqDNhQ4HYxkoVwnmkIwHaE8&pid=Api&P=0);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.location{
+    text-align: right;
+    padding: 80px 150px 0px 0px;
+}
+.location h3, .location h5{
+    margin: 0px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+    margin-top: 80px;
+}
+.temp_info h2{
+    font-size: 50px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+}
+.search input{
+    height: 40px;
+    width: 400px;
+}
+.search button{
+    border: 0;
+    color: white;
+    background-color: darkgrey;
+    padding: 0px 30px;
+    font-size: 18px;
+}
